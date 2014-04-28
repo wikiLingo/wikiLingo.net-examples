@@ -39,72 +39,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="php5ts, Version=3.0.0.0, Culture=neutral, PublicKeyToken=43b6773fb05dc4f0, processorArchitecture=x86">
+    <Reference Include="PhpNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\php5ts.dll</HintPath>
+      <HintPath>..\..\..\Phalanger\Deployment\Debug\PhpNetCore.dll</HintPath>
     </Reference>
-    <Reference Include="PhpNetClassLibrary, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4af37afe3cde05fb, processorArchitecture=MSIL">
+    <Reference Include="PhpNetCore.Parsers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetClassLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetCore.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetCurl, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetCurl.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetGd2, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetGd2.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetIconv, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetIconv.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetMbstring, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetMbstring.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetMsSql, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetMsSql.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetPDO, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetPDO.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetPDOSQLite, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetPDOSQLite.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetPDOSQLServer">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetPDOSQLServer.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetSoap, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetSoap.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetSQLite, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetSQLite.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetXml, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetXml.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetXmlDom, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetXmlDom.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetZip, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetZip.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetZlib, Version=3.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\PhpNetZlib.dll</HintPath>
+      <HintPath>..\..\..\Phalanger\Deployment\Debug\PhpNetCore.Parsers.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.SQLite, Version=1.0.81.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -129,12 +70,13 @@
     <Reference Include="WikiLingo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\wikiLingo.net\WikiLingo.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bold.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bold.aspx.cs">

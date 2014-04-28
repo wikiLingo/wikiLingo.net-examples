@@ -16,7 +16,11 @@ namespace examples
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var text = "test";
+            var c = ScriptContext.CurrentContext;
+            dynamic globals = ScriptContext.CurrentContext.Globals;
+            var parser = (WikiLingo.Parser) globals.@namespace.WikiLingo.@class.Parser();
+            var output = parser.parse(c, "bold");
+            var t = "";
         }
     }
 }
