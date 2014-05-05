@@ -6,3 +6,5 @@ C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\example
 C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\examples\obj\Debug\examples.csprojResolveAssemblyReference.cache
 C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\examples\obj\Debug\examples.dll
 C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\examples\obj\Debug\examples.pdb
+C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\examples\bin\PhpNetClassLibrary.pdb
+C:\Users\robert.plummer\Documents\GitHub\wikiLingo.net-examples\examples\examples\bin\PhpNetCore.dll

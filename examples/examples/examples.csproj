@@ -39,17 +39,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PhpNetClassLibrary">
+      <HintPath>..\..\..\Phalanger\Source\ClassLibrary\obj\Debug)\PhpNetClassLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="PhpNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Phalanger\Deployment\Debug\PhpNetCore.dll</HintPath>
-    </Reference>
-    <Reference Include="PhpNetCore.Parsers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Phalanger\Deployment\Debug\PhpNetCore.Parsers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.SQLite, Version=1.0.81.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Phalanger 3.0\Bin\System.Data.SQLite.DLL</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />

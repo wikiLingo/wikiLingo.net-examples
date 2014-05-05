@@ -9,6 +9,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using PHP.Core;
 using WikiLingo;
+using WikiLingo.Utilities;
 
 namespace examples
 {
@@ -17,10 +18,13 @@ namespace examples
         protected void Page_Load(object sender, EventArgs e)
         {
             var c = ScriptContext.CurrentContext;
-            dynamic globals = ScriptContext.CurrentContext.Globals;
-            var parser = (WikiLingo.Parser) globals.@namespace.WikiLingo.@class.Parser();
-            var output = parser.parse(c, "bold");
-            var t = "";
+            var scripts = new Scripts(c);
+            var parser = new Parser(ref scripts, null, null);
+            var output = parser.parse(c, @"
+__test__
+");
+
+            form1.InnerHtml = (string) output;
         }
     }
 }
