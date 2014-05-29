@@ -27,7 +27,7 @@ namespace examples
 
             var wikiLingoParser = new WikiLingo.Parser();
 
-            var output = wikiLingoParser.parse(c, @"__bold test__");
+            var output = wikiLingoParser.parse(c, @"__bold__");
 
             form1.InnerHtml = output.ToString();
         }
