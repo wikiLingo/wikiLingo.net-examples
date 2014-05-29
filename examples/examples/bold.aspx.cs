@@ -8,8 +8,13 @@ using System.Web.Query.Dynamic;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using PHP.Core;
+using PHP.Library;
 using WikiLingo;
 using WikiLingo.Utilities;
+using WikiLingo.Utilities.Parameters;
+using WikiLingo.Utilities.Tensor;
+using WikiLingo.Expression;
+using WikiLingo.Expression.BlockType;
 
 namespace examples
 {
@@ -18,13 +23,13 @@ namespace examples
         protected void Page_Load(object sender, EventArgs e)
         {
             var c = ScriptContext.CurrentContext;
-            var scripts = new Scripts(c);
-            var parser = new Parser(ref scripts, null, null);
-            var output = parser.parse(c, @"
-__test__
-");
+            ApplicationContext.Default.AssemblyLoader.Load(typeof(WikiLingo.Parser).Assembly, null);
 
-            form1.InnerHtml = (string) output;
+            var wikiLingoParser = new WikiLingo.Parser();
+
+            var output = wikiLingoParser.parse(c, @"__bold test__");
+
+            form1.InnerHtml = output.ToString();
         }
     }
 }

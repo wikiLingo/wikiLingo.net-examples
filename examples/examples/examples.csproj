@@ -39,13 +39,41 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="PhpNetClassLibrary">
+    <Reference Include="PhpNetClassLibrary, Version=4.0.0.0, Culture=neutral, PublicKeyToken=4af37afe3cde05fb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Phalanger\Source\ClassLibrary\obj\Debug)\PhpNetClassLibrary.dll</HintPath>
     </Reference>
     <Reference Include="PhpNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Phalanger\Deployment\Debug\PhpNetCore.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\Phalanger\Source\Core\obj\Debug)\PhpNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetCore.CodeDom, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Core.CodeDom\obj\Debug)\PhpNetCore.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetCore.DuckTyping, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Core.DuckTyping\obj\Debug)\PhpNetCore.DuckTyping.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetCore.Parsers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0a8e8c4c76728c71, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Core.Parsers\obj\Debug)\PhpNetCore.Parsers.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetCurl, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Extensions\Curl\obj\Debug)\PhpNetCurl.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetGd2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Extensions\Gd2\obj\Debug)\PhpNetGd2.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetMbstring, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Extensions\mbstring\obj\Debug)\PhpNetMbstring.dll</HintPath>
+    </Reference>
+    <Reference Include="PhpNetZip, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2771987119c16a03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Phalanger\Source\Extensions\Zip\obj\Debug)\PhpNetZip.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
