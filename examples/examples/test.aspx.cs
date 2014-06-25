@@ -24,9 +24,7 @@ namespace examples
 
             c.Include("Testify\\Testify.php", true);
             c.Include("test.php", true);
-            var testSuite = c.BufferedOutput.GetContent().ToString();
-            testSuite = testSuite.Replace("wikiLingo test suite", "wikiLingo.net test suite");
-            output.Text = testSuite;
+            output.Text = c.BufferedOutput.GetContent().ToString();
             Page.Controls.Add(output);
         }
     }
