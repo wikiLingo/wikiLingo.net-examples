@@ -18,13 +18,16 @@ namespace examples
         {
             var c = ScriptContext.CurrentContext;
             var globals = c.Globals;
+            var output = new Literal();;
             ApplicationContext.Default.AssemblyLoader.Load(typeof(WikiLingo.Parser).Assembly, null);
 
 
             c.Include("Testify\\Testify.php", true);
             c.Include("test.php", true);
-
-            var t = "";
+            var testSuite = c.BufferedOutput.GetContent().ToString();
+            testSuite = testSuite.Replace("wikiLingo test suite", "wikiLingo.net test suite");
+            output.Text = testSuite;
+            Page.Controls.Add(output);
         }
     }
 }
