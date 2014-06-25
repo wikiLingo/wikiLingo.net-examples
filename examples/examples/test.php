@@ -1,6 +1,6 @@
 ﻿<?php
 
-$tf = new \Testify\Testify("wikiLingo test suite");
+$tf = new \Testify\Testify("wikiLingo.net test suite");
 
 //Test Expressions
 $tf->test("WikiLingo Expressions", function($tf) {
