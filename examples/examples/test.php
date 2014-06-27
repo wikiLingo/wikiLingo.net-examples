@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $tf = new \Testify\Testify("wikiLingo.net test suite");
 
@@ -24,3 +24,12 @@ $tf->test("WYSIWYGWikiLingo Syntax Generator", function($tf) {
 
 ob_start();
 $tf();
+
+
+$str = "this is\r\na test";
+$str2 = "this is
+a test";
+
+if ($str != $str2) {
+    throw new Exception('no match');
+}
