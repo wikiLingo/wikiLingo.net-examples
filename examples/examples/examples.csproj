@@ -98,6 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bold.aspx" />
+    <Content Include="simple.aspx" />
     <Content Include="test.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -112,6 +113,13 @@
       <DependentUpon>bold.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="simple.aspx.cs">
+      <DependentUpon>simple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="simple.aspx.designer.cs">
+      <DependentUpon>simple.aspx</DependentUpon>
+    </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,6 +127,8 @@
     <Compile Include="test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WikiLingo\Plugin\DotNetBase.cs" />
+    <Compile Include="WikiLingo\Plugin\Simple.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Testify\Testify.php" />
